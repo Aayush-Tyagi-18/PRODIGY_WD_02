@@ -32,7 +32,7 @@ function stopWatch() {
 	if (timer) { 
 		count++; 
 
-		if (count == 100) { 
+		if (count == 60) { 
 			second++; 
 			count = 0; 
 		} 
